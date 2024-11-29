@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="811.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.abslouteloader.LinkerLoaderController">
+   <children>
+      <TextArea fx:id="area1" editable="false" layoutX="27.0" layoutY="77.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="660.0" prefWidth="1031.0">
+         <padding>
+            <Insets right="5.0" top="5.0" />
+         </padding></TextArea>
+      <Button fx:id="ok" layoutX="258.0" layoutY="751.0" mnemonicParsing="false" onAction="#showdata" style="-fx-background-color: null;" text="View memory" textFill="#dd0909" underline="true" />
+      <Label layoutX="492.0" layoutY="27.0" text="Memory">
+         <font>
+            <Font name="Arial Bold Italic" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="27.0" layoutY="755.0" text="Enter Starting Address" />
+      <TextField fx:id="textfield" layoutX="155.0" layoutY="751.0" prefHeight="25.0" prefWidth="89.0" />
+      <Label fx:id="label1" layoutX="146.0" layoutY="776.0" prefHeight="25.0" prefWidth="199.0" />
+   </children>
+</AnchorPane>
